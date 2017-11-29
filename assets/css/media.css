@@ -1,19 +1,46 @@
-@media (min-width: 1200px) {
+@media only screen and (max-width: 1100px) {
 
+  .overlay {
+    padding: 0;
+  }
+
+  #menu-list {
+    display: none;
+  }
+
+  #menu {
+    display: inline-block;
+  }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (max-width: 800px) {
+  
+  .content-body {
+    display: block!important;
+  }
+    
+  .span_1_of_12, .span_2_of_12, .span_3_of_12, 
+  .span_4_of_12, .span_5_of_12, .span_6_of_12, 
+  .span_7_of_12, .span_8_of_12, .span_9_of_12, 
+  .span_10_of_12, .span_11_of_12, .span_12_of_12 {
+    width: 100%; 
+  }
 
+  #logo {
+    height: 33.750em;
+  }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
 
+@media only screen and (max-width: 600px) {
+
+  #logo {
+    height: 40.938em;
+  }
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-
-}
-
-@media (max-width: 775px) {
-	
+@media only screen and (max-width: 410px) {
+  #logo {
+    height: 45.125em;
+  }
 }
